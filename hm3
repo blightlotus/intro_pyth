@@ -1,0 +1,10 @@
+x = int(input('number of students in class X:'))
+y = int(input('number of students in class Y:'))
+z = int(input('number of students in class Z:'))
+
+p1 = x//2+x%2
+p2 = y//2+y%2
+p3 = z//2+z%2
+pt = p1 + p2 + p3
+
+print('required number of desks is', pt)
