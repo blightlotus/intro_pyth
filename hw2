@@ -1,0 +1,5 @@
+n = int(input('numer of scolars:'))
+k = int(input('number of apples:'))
+
+print('amount of apples each scolar has is', k // n)
+print('amount of apples left is', k % n)
